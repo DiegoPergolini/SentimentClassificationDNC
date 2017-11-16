@@ -1,0 +1,28 @@
+{
+  "hidden_size": "256",
+  "memory_size": "32",
+  "word_size": "64",
+  "num_write_heads": "1",
+  "num_read_heads": "1",
+  "clip_value": "10",
+  "max_grad_norm": "10",
+  "batch_size":"60",
+  "learning_rate": "1e-3",
+  "final_learning_rate": "1e-3",
+  "optimizer_epsilon": "1e-10",
+  "num_training_iterations": "5040",
+  "num_testing_iterations": "1620",
+  "num_epochs": "8",
+  "report_interval": "10",
+  "checkpoint_dir" : "/home/diego/sentiment-classification/mega/mixed256",
+  "checkpoint_interval": "-1",
+  "word_dimension" : "300",
+  "max_lenght" : "150",
+  "dataset" : "/media/diego/Volume/Reviews/reviews_Electronics.json",
+  "datasetDest" : "/media/diego/Volume/Reviews/reviews_Electronics.json",
+  "w2v_model" : "/media/diego/Volume/GoogleNews-vectors-negative300.bin",
+  "random" : "True",
+  "seed" : "19",
+  "num_classes": "2"
+}
+
